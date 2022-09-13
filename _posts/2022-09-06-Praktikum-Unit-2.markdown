@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Praktikum Unit 2"
-date:   2022-09-06 10:45:56 +0700
+title:  "Diagram"
+date:   2022-09-13 09:25:56 +0700
 categories: Halcyon UseCase Activity Class Diagram
 ---
 
@@ -15,4 +15,4 @@ Pada praktikum kali ini kami membuat use case diagram, activity diagram, dan cla
 <br>
 <br>
 3. Class Diagram <br>
-![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/111695627/188541801-f5ff981e-04ee-4b87-9b37-097a7ee2a4c9.png)
+![Untitled Diagram drawio (2)](https://user-images.githubusercontent.com/111695627/189793454-51c10925-40ad-4f16-9686-db076f0a36a6.png)
