@@ -1,0 +1,269 @@
+<ContentPage x:Class="homepage.login_page"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="login_page">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+			<AbsoluteLayout x:Name="page_login_page_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,360,800"
+				 >
+
+				<BoxView x:Name="_bg__login_page_ek2"
+					Color="#FFFFFF"
+					AbsoluteLayout.LayoutBounds="0,0,360,800" />
+
+				<AbsoluteLayout x:Name="nav_bar_ek1"
+					 AbsoluteLayout.LayoutBounds="0,752,360,48"
+					 >
+
+					<Image x:Name="background_ek2"
+						Source="background_ek2.png"
+						AbsoluteLayout.LayoutBounds="0,0,360,48" />
+
+					<AbsoluteLayout x:Name="recents_ek2"
+						 AbsoluteLayout.LayoutBounds="273,16,16,16"
+						 >
+
+						<Image x:Name="recents_ek3"
+							Source="recents_ek3.png"
+							AbsoluteLayout.LayoutBounds="0,0,16,16" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="home_ek2"
+						 AbsoluteLayout.LayoutBounds="172,16,16,16"
+						 >
+
+						<Image x:Name="home_ek3"
+							Source="home_ek3.png"
+							AbsoluteLayout.LayoutBounds="0,0,16,16" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="back_ek2"
+						 AbsoluteLayout.LayoutBounds="72,15,15,17"
+						 >
+
+						<Image x:Name="back_ek3"
+							Source="back_ek3.png"
+							AbsoluteLayout.LayoutBounds="0,0,15,17" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="status_bar_ek1"
+					 AbsoluteLayout.LayoutBounds="0,0,360,24"
+					 >
+
+					<Image x:Name="background_ek3"
+						Source="background_ek3.png"
+						AbsoluteLayout.LayoutBounds="0,0,360,24" />
+					<Label x:Name="_11_11_ek1"
+						FontFamily="Roboto"
+						HorizontalTextAlignment="Right"
+						FontSize="14"
+						TextColor="#FFFFFF"
+						AbsoluteLayout.LayoutBounds="313,4,49,27"
+						Text="11:11"
+					 />
+
+					<AbsoluteLayout x:Name="icons_placeholder_24px_ek6"
+						 AbsoluteLayout.LayoutBounds="8,3,18,18"
+						 >
+
+						<Image x:Name="placeholder_ek6"
+							Source="placeholder_ek6.png"
+							AbsoluteLayout.LayoutBounds="0,0,18,18" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_placeholder_24px_ek7"
+						 AbsoluteLayout.LayoutBounds="28,3,18,18"
+						 >
+
+						<Image x:Name="placeholder_ek7"
+							Source="placeholder_ek7.png"
+							AbsoluteLayout.LayoutBounds="0,0,18,18" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_placeholder_24px_ek8"
+						 AbsoluteLayout.LayoutBounds="48,3,18,18"
+						 >
+
+						<Image x:Name="placeholder_ek8"
+							Source="placeholder_ek8.png"
+							AbsoluteLayout.LayoutBounds="0,0,18,18" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_placeholder_24px_ek9"
+						 AbsoluteLayout.LayoutBounds="68,3,18,18"
+						 >
+
+						<Image x:Name="placeholder_ek9"
+							Source="placeholder_ek9.png"
+							AbsoluteLayout.LayoutBounds="0,0,18,18" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_placeholder_24px_ek10"
+						 AbsoluteLayout.LayoutBounds="88,3,18,18"
+						 >
+
+						<Image x:Name="placeholder_ek10"
+							Source="placeholder_ek10.png"
+							AbsoluteLayout.LayoutBounds="0,0,18,18" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_placeholder_24px_ek11"
+						 AbsoluteLayout.LayoutBounds="236,3,18,18"
+						 >
+
+						<Image x:Name="placeholder_ek11"
+							Source="placeholder_ek11.png"
+							AbsoluteLayout.LayoutBounds="0,0,18,18" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_device_signal_wifi_4_bar_ek1"
+						 AbsoluteLayout.LayoutBounds="256,3,18,18"
+						 >
+
+						<Image x:Name="signal_wifi_4_bar_ek1"
+							Source="signal_wifi_4_bar_ek1.png"
+							AbsoluteLayout.LayoutBounds="0.28,2.25,17.44,13.85" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_device_signal_cellular_4_bar_ek1"
+						 AbsoluteLayout.LayoutBounds="276,3,18,18"
+						 >
+
+						<Image x:Name="signal_cellular_4_bar_ek1"
+							Source="signal_cellular_4_bar_ek1.png"
+							AbsoluteLayout.LayoutBounds="1.51,1.51,14.98,14.98" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_device_battery_std_ek1"
+						 AbsoluteLayout.LayoutBounds="296,3,18,18"
+						 >
+
+						<Image x:Name="battery_std_ek1"
+							Source="battery_std_ek1.png"
+							AbsoluteLayout.LayoutBounds="5.24,1.51,7.52,14.98" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="center_ek1"
+					 AbsoluteLayout.LayoutBounds="27,243,307,314"
+					 >
+
+					<Label x:Name="login"
+						FontFamily="Sansation"
+						HorizontalTextAlignment="Center"
+						FontSize="40"
+						TextColor="#000000"
+						AbsoluteLayout.LayoutBounds="-7,0,129,73"
+						Text="Login"
+					 />
+
+					<AbsoluteLayout x:Name="username"
+						 AbsoluteLayout.LayoutBounds="0,69,307,41"
+						 >
+
+						<BoxView x:Name="rectangle_1_ek1"
+							CornerRadius="20"
+							Color="#D9D9D9"
+							AbsoluteLayout.LayoutBounds="0,0,307,41" />
+						<Label x:Name="what_is_your_name_"
+							FontFamily="Roboto"
+							FontSize="15"
+							TextColor="#000000"
+							AbsoluteLayout.LayoutBounds="87,12,153.03,28.5"
+							Text="What is your name?"
+						 />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="email"
+						 AbsoluteLayout.LayoutBounds="0,137,307,41"
+						 >
+
+						<BoxView x:Name="rectangle_1_ek2"
+							CornerRadius="20"
+							Color="#D9D9D9"
+							AbsoluteLayout.LayoutBounds="0,0,307,41" />
+						<Label x:Name="enter_your_email"
+							FontFamily="Roboto"
+							HorizontalTextAlignment="Center"
+							FontSize="15"
+							TextColor="#000000"
+							AbsoluteLayout.LayoutBounds="68,12,178,28.5"
+							Text="Enter your email"
+						 />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="password"
+						 AbsoluteLayout.LayoutBounds="0,205,307,41"
+						 >
+
+						<BoxView x:Name="rectangle_1_ek3"
+							CornerRadius="20"
+							Color="#D9D9D9"
+							AbsoluteLayout.LayoutBounds="0,0,307,41" />
+						<Label x:Name="enter_your_password"
+							FontFamily="Roboto"
+							HorizontalTextAlignment="Center"
+							FontSize="15"
+							TextColor="#000000"
+							AbsoluteLayout.LayoutBounds="68,12,178,28.5"
+							Text="Enter your password"
+						 />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="sign_up"
+						 AbsoluteLayout.LayoutBounds="77,273,145,41"
+						 >
+
+						<BoxView x:Name="rectangle_1_ek4"
+							CornerRadius="36"
+							Color="#00A0C2"
+							AbsoluteLayout.LayoutBounds="0,0,145,41" />
+						<Label x:Name="sign_up_ek1"
+							FontFamily="Roboto"
+							FontAttributes="Bold"
+							HorizontalTextAlignment="Center"
+							FontSize="15"
+							TextColor="#FFFFFF"
+							AbsoluteLayout.LayoutBounds="38,12,75.1,28.5"
+							Text="Sign up"
+						 />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

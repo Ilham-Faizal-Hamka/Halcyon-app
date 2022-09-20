@@ -1,0 +1,351 @@
+<ContentPage x:Class="homepage.main_page"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	Title="main_page">
+	<ContentPage.Content>
+		<ScrollView>
+		<AbsoluteLayout>
+
+
+
+
+			<AbsoluteLayout x:Name="page_main_page_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,360,800"
+				 >
+
+				<BoxView x:Name="_bg__main_page_ek2"
+					Color="#FFFFFF"
+					AbsoluteLayout.LayoutBounds="0,0,360,800" />
+				<Label x:Name="start_your_meditation_"
+					FontFamily="Sansation"
+					HorizontalTextAlignment="Right"
+					FontSize="20"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="28,161,212,36"
+					Text="Start your meditation!"
+				 />
+				<Label x:Name="how_are_you_feeling_today_"
+					FontFamily="Sansation"
+					FontSize="20"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="31,118,274,36"
+					Text="How are you feeling today?"
+				 />
+				<Label x:Name="hi__amanda_"
+					FontFamily="Sansation"
+					FontSize="20"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="32,75,136,36"
+					Text="Hi, Amanda."
+				 />
+
+				<AbsoluteLayout x:Name="status_bar_ek3"
+					 AbsoluteLayout.LayoutBounds="0,0,360,24"
+					 >
+
+					<Image x:Name="background_ek6"
+						Source="background_ek6.png"
+						AbsoluteLayout.LayoutBounds="0,0,360,24" />
+					<Label x:Name="_11_11_ek3"
+						FontFamily="Roboto"
+						HorizontalTextAlignment="Right"
+						FontSize="14"
+						TextColor="#FFFFFF"
+						AbsoluteLayout.LayoutBounds="313,4,49,27"
+						Text="11:11"
+					 />
+
+					<AbsoluteLayout x:Name="icons_placeholder_24px_ek18"
+						 AbsoluteLayout.LayoutBounds="8,3,18,18"
+						 >
+
+						<Image x:Name="placeholder_ek18"
+							Source="placeholder_ek18.png"
+							AbsoluteLayout.LayoutBounds="0,0,18,18" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_placeholder_24px_ek19"
+						 AbsoluteLayout.LayoutBounds="28,3,18,18"
+						 >
+
+						<Image x:Name="placeholder_ek19"
+							Source="placeholder_ek19.png"
+							AbsoluteLayout.LayoutBounds="0,0,18,18" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_placeholder_24px_ek20"
+						 AbsoluteLayout.LayoutBounds="48,3,18,18"
+						 >
+
+						<Image x:Name="placeholder_ek20"
+							Source="placeholder_ek20.png"
+							AbsoluteLayout.LayoutBounds="0,0,18,18" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_placeholder_24px_ek21"
+						 AbsoluteLayout.LayoutBounds="68,3,18,18"
+						 >
+
+						<Image x:Name="placeholder_ek21"
+							Source="placeholder_ek21.png"
+							AbsoluteLayout.LayoutBounds="0,0,18,18" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_placeholder_24px_ek22"
+						 AbsoluteLayout.LayoutBounds="88,3,18,18"
+						 >
+
+						<Image x:Name="placeholder_ek22"
+							Source="placeholder_ek22.png"
+							AbsoluteLayout.LayoutBounds="0,0,18,18" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_placeholder_24px_ek23"
+						 AbsoluteLayout.LayoutBounds="236,3,18,18"
+						 >
+
+						<Image x:Name="placeholder_ek23"
+							Source="placeholder_ek23.png"
+							AbsoluteLayout.LayoutBounds="0,0,18,18" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_device_signal_wifi_4_bar_ek3"
+						 AbsoluteLayout.LayoutBounds="256,3,18,18"
+						 >
+
+						<Image x:Name="signal_wifi_4_bar_ek3"
+							Source="signal_wifi_4_bar_ek3.png"
+							AbsoluteLayout.LayoutBounds="0.28,2.25,17.44,13.85" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_device_signal_cellular_4_bar_ek3"
+						 AbsoluteLayout.LayoutBounds="276,3,18,18"
+						 >
+
+						<Image x:Name="signal_cellular_4_bar_ek3"
+							Source="signal_cellular_4_bar_ek3.png"
+							AbsoluteLayout.LayoutBounds="1.51,1.51,14.98,14.98" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="icons_device_battery_std_ek3"
+						 AbsoluteLayout.LayoutBounds="296,3,18,18"
+						 >
+
+						<Image x:Name="battery_std_ek3"
+							Source="battery_std_ek3.png"
+							AbsoluteLayout.LayoutBounds="5.24,1.51,7.52,14.98" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="play_button"
+					 AbsoluteLayout.LayoutBounds="96,277,169,169"
+					 >
+
+					<BoxView x:Name="ellipse_2"
+						Color="#D9D9D9"
+						AbsoluteLayout.LayoutBounds="0,0,169,169" />
+					<Image x:Name="polygon_1"
+						Source="polygon_1.png"
+						AbsoluteLayout.LayoutBounds="27,46,114.92,75.21" />
+				</AbsoluteLayout>
+
+				<Label x:Name="_3_00"
+					FontFamily="Sansation"
+					HorizontalTextAlignment="Right"
+					FontSize="32"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="142,515,91,58"
+					Text="3:00"
+				 />
+
+				<AbsoluteLayout x:Name="start_button"
+					 AbsoluteLayout.LayoutBounds="109,565,145,41"
+					 >
+
+					<BoxView x:Name="rectangle_1_ek5"
+						CornerRadius="36"
+						Color="#00A0C2"
+						AbsoluteLayout.LayoutBounds="0,0,145,41" />
+					<Label x:Name="start_now"
+						FontFamily="Roboto"
+						FontAttributes="Bold"
+						HorizontalTextAlignment="Center"
+						FontSize="15"
+						TextColor="#FFFFFF"
+						AbsoluteLayout.LayoutBounds="26,12,101,28.5"
+						Text="Start now"
+					 />
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="nav_bar_app_ek1"
+					 AbsoluteLayout.LayoutBounds="0,694,360,58"
+					 >
+
+					<BoxView x:Name="rectangle_2_ek1"
+						Opacity="0.4"
+						Color="#FFFFFF"
+						AbsoluteLayout.LayoutBounds="0,0,360,58" > 
+											<!-- Effect support coming soon for Xamarin Forms -->
+					</BoxView>
+
+					<AbsoluteLayout x:Name="group_4_ek1"
+						 AbsoluteLayout.LayoutBounds="55,7,253,45"
+						 >
+
+
+						<AbsoluteLayout x:Name="flame_ek1"
+							 AbsoluteLayout.LayoutBounds="109,0,32,32"
+							 >
+
+							<Image x:Name="vector_ek30"
+								Source="vector_ek30.png"
+								AbsoluteLayout.LayoutBounds="0,0,32,32" />
+							<Image x:Name="vector_ek31"
+								Source="vector_ek31.png"
+								AbsoluteLayout.LayoutBounds="6,3,20,25" />
+							<Image x:Name="vector_ek32"
+								Source="vector_ek32.png"
+								AbsoluteLayout.LayoutBounds="11,15,10,13" />
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="usercircle_ek1"
+							 AbsoluteLayout.LayoutBounds="0,0,32,32"
+							 >
+
+							<Image x:Name="vector_ek33"
+								Source="vector_ek33.png"
+								AbsoluteLayout.LayoutBounds="0,0,32,32" />
+							<Image x:Name="vector_ek34"
+								Source="vector_ek34.png"
+								AbsoluteLayout.LayoutBounds="4,4,24,24" />
+							<Image x:Name="vector_ek35"
+								Source="vector_ek35.png"
+								AbsoluteLayout.LayoutBounds="11,10,10,10" />
+							<Image x:Name="vector_ek36"
+								Source="vector_ek36.png"
+								AbsoluteLayout.LayoutBounds="8,20,16.05,4.93" />
+						</AbsoluteLayout>
+
+
+						<AbsoluteLayout x:Name="notepad_ek1"
+							 AbsoluteLayout.LayoutBounds="218,0,32,32"
+							 >
+
+							<Image x:Name="vector_ek37"
+								Source="vector_ek37.png"
+								AbsoluteLayout.LayoutBounds="0,0,32,32" />
+							<Image x:Name="vector_ek38"
+								Source="vector_ek38.png"
+								AbsoluteLayout.LayoutBounds="12,16,8,0" />
+							<Image x:Name="vector_ek39"
+								Source="vector_ek39.png"
+								AbsoluteLayout.LayoutBounds="12,20,8,0" />
+							<Image x:Name="vector_ek40"
+								Source="vector_ek40.png"
+								AbsoluteLayout.LayoutBounds="6,5,20,23" />
+							<Image x:Name="vector_ek41"
+								Source="vector_ek41.png"
+								AbsoluteLayout.LayoutBounds="10,3,0,4" />
+							<Image x:Name="vector_ek42"
+								Source="vector_ek42.png"
+								AbsoluteLayout.LayoutBounds="16,3,0,4" />
+							<Image x:Name="vector_ek43"
+								Source="vector_ek43.png"
+								AbsoluteLayout.LayoutBounds="22,3,0,4" />
+						</AbsoluteLayout>
+
+						<Label x:Name="journal_ek1"
+							FontFamily="Sansation"
+							FontAttributes="Bold"
+							HorizontalTextAlignment="Right"
+							FontSize="12"
+							TextColor="#7E7E7E"
+							AbsoluteLayout.LayoutBounds="211,32,51,21"
+							Text="Journal"
+						 />
+						<Label x:Name="user_ek1"
+							FontFamily="Sansation"
+							FontAttributes="Bold"
+							HorizontalTextAlignment="Right"
+							FontSize="12"
+							TextColor="#00A0C2"
+							AbsoluteLayout.LayoutBounds="1,32,37,21"
+							Text="User"
+						 />
+						<Label x:Name="meditation_ek1"
+							FontFamily="Sansation"
+							FontAttributes="Bold"
+							HorizontalTextAlignment="Right"
+							FontSize="12"
+							TextColor="#7E7E7E"
+							AbsoluteLayout.LayoutBounds="94,32,70,21"
+							Text="Meditation"
+						 />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+
+				<AbsoluteLayout x:Name="nav_bar_ek3"
+					 AbsoluteLayout.LayoutBounds="0,752,360,48"
+					 >
+
+					<Image x:Name="background_ek7"
+						Source="background_ek7.png"
+						AbsoluteLayout.LayoutBounds="0,0,360,48" />
+
+					<AbsoluteLayout x:Name="recents_ek6"
+						 AbsoluteLayout.LayoutBounds="273,16,16,16"
+						 >
+
+						<Image x:Name="recents_ek7"
+							Source="recents_ek7.png"
+							AbsoluteLayout.LayoutBounds="0,0,16,16" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="home_ek6"
+						 AbsoluteLayout.LayoutBounds="172,16,16,16"
+						 >
+
+						<Image x:Name="home_ek7"
+							Source="home_ek7.png"
+							AbsoluteLayout.LayoutBounds="0,0,16,16" />
+					</AbsoluteLayout>
+
+
+					<AbsoluteLayout x:Name="back_ek6"
+						 AbsoluteLayout.LayoutBounds="72,15,15,17"
+						 >
+
+						<Image x:Name="back_ek7"
+							Source="back_ek7.png"
+							AbsoluteLayout.LayoutBounds="0,0,15,17" />
+					</AbsoluteLayout>
+
+				</AbsoluteLayout>
+
+			</AbsoluteLayout>
+
+
+		</AbsoluteLayout>
+
+		</ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

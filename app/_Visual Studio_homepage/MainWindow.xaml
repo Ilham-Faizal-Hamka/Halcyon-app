@@ -1,0 +1,19 @@
+<ContentPage x:Class="homepage.MainWindow"
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="360">
+    <ContentPage.Content>
+	<ScrollView>
+        <Frame Source="Pages/homepage.xaml"/>
+        <Frame Source="Pages/login_page.xaml"/>
+        <Frame Source="Pages/profile_page.xaml"/>
+        <Frame Source="Pages/main_page.xaml"/>
+        <Frame Source="Pages/journal_page.xaml"/>
+        <Frame Source="Pages/main_page_start.xaml"/>
+        <Frame Source="Pages/journal_page_write.xaml"/>
+	</ScrollView>
+    </ContentPage.Content>
+</ContentPage>
