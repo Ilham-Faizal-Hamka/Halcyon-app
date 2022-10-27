@@ -1,0 +1,17 @@
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/bin/Debug/netstandard2.0/appHalcyon.deps.json
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/bin/Debug/netstandard2.0/appHalcyon.dll
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/bin/Debug/netstandard2.0/ref/appHalcyon.dll
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/bin/Debug/netstandard2.0/appHalcyon.pdb
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/obj/Debug/netstandard2.0/appHalcyon.csproj.AssemblyReference.cache
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/obj/Debug/netstandard2.0/pages/journal_page.xaml.g.cs
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/obj/Debug/netstandard2.0/pages/main_page.xaml.g.cs
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/obj/Debug/netstandard2.0/pages/profile_page.xaml.g.cs
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/obj/Debug/netstandard2.0/appHalcyon.AssemblyInfoInputs.cache
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/obj/Debug/netstandard2.0/appHalcyon.AssemblyInfo.cs
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/obj/Debug/netstandard2.0/appHalcyon.csproj.CoreCompileInputs.cache
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/obj/Debug/netstandard2.0/appHalcyon.dll
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/obj/Debug/netstandard2.0/ref/appHalcyon.dll
+/Users/faizalhamka/Documents/halcyon/Halcyon-app/appHalcyon/appHalcyon/appHalcyon/obj/Debug/netstandard2.0/appHalcyon.pdb

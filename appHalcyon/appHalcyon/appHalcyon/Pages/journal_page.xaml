@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Journal"
+    x:Class="appHalcyon.pages.journal_page">
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Label x:Name="lblWriteYourJournal"
+                   Text="Write your journal!"
+                   TextColor="Black"
+                   Padding="0"
+                   FontFamily="Sanstation_Regular.ttf"
+                   FontSize="20"
+                   Margin="30,45, 30, 0"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start">
+            </Label>
+
+            <Frame x:Name="btnCreateJournal" Margin="25, 10, 25,25" CornerRadius="5" BackgroundColor="#9CDAE8" Padding="8">
+                <FlexLayout AlignItems="Start">
+                    <Image Source="calendar_ek1.png" HorizontalOptions="Start" Margin="2,0,8,0" VerticalOptions="Center"/>
+                    <Label x:Name="lblDate" Text="Sept 15, 2022" TextColor="Black" Padding="5,5,170,5" VerticalOptions="Center" HorizontalOptions="Start" HorizontalTextAlignment="Start"></Label>
+                    <Image Source="inputnote.png" HorizontalOptions="End" Margin="8,0,2,0" VerticalOptions="Center"/>
+                </FlexLayout>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <Frame x:Name="btnYourJournal" Margin="25, 10, 25,0" CornerRadius="5" BackgroundColor="#D9D9D9" Padding="8">
+                <FlexLayout AlignItems="Start">
+                    <Image Source="noteicon.png" HorizontalOptions="Start" Margin="2,0,8,0" VerticalOptions="Center"/>
+                    <Label x:Name="lblYourJournal" Text="Your Journal" TextColor="Black" Padding="5,5,170,5" VerticalOptions="Center" HorizontalOptions="Start" HorizontalTextAlignment="Start"></Label>
+                </FlexLayout>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" NumberOfTapsRequired="1"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

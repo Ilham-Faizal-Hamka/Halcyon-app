@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Meditation"
+             x:Class="appHalcyon.pages.main_page">
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Label x:Name="lblGreetings"
+                   Text="Hai "
+                   TextColor="Black"
+                   Padding="0"
+                   FontFamily="Sanstation_Regular.ttf"
+                   FontSize="20"
+                   Margin="30,32, 30, 0"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start">
+            </Label>
+
+            <Label x:Name="lblFeelings"
+                   Text="How are you feeling today?"
+                   TextColor="Black"
+                   Padding="0"
+                   FontFamily="Sanstation_Regular.ttf"
+                   FontSize="20"
+                   Margin="30, 15, 30, 0"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start">
+            </Label>
+
+            <Label x:Name="lblStartYourMeditation"
+                   Text="Start your meditation!"
+                   TextColor="Black"
+                   Padding="0"
+                   FontFamily="Sanstation_Regular.ttf"
+                   FontSize="20"
+                   Margin="30, 15, 30, 0"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Start">
+                </Label>
+            <ImageButton Source="play_button.png"
+                         x:Name="btnPlay"
+                         HorizontalOptions="Center"
+                         Margin="0,100,0,0"
+                         CornerRadius="169">
+            </ImageButton>
+
+            <Label Text="03:00"
+                   x:Name="lblTimer"
+                   TextColor="Black"
+                   FontSize="35"
+                   Margin="0,75,0,0"
+                   FontFamily="Sanstatiion_Reguler.ttf"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center">
+            </Label>
+
+            <Button x:Name="btnStart"
+                    Text="Start Now"
+                    BackgroundColor="#00A0C2"
+                    HorizontalOptions="Center"
+                    FontFamily="Sanstation_Reguler.ttf"
+                    Padding="15,5,15,5"
+                    Margin="90, 10, 90,0"
+                    CornerRadius="20"
+                    TextColor="White">
+            </Button>
+
+        </StackLayout>
+
+            
+
+    </ContentPage.Content>
+</ContentPage>
+

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Profile"
+    x:Class="appHalcyon.pages.profile_page">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lblWelcome"
+                   Text="Welcome, Amanda"
+                   TextColor="#00A0C2"
+                   FontSize="Title"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,90,0,15"
+                   FontFamily="Sanstation_Reguler.ttf">
+            </Label>
+
+            <Frame BackgroundColor="Transparent" Margin="0,0,0,15">
+                <Image Source="profile_picture.png" x:Name="imgProfilePicture"/>
+            </Frame>
+
+            <Label x:Name="lblEmail"
+                   Text="amanda@gmail.com"
+                   TextColor="Black"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   FontFamily="Sanstation_Regular.ttf"
+                   FontSize="Medium">
+            </Label>
+
+            <ImageButton Source="termsofservice.png"
+                         x:Name="btnTermsofService"
+                         BackgroundColor="Transparent"
+                         HorizontalOptions="Start"
+                         Margin="-25,80,0,0"
+                         Scale="0.5">
+            </ImageButton>
+
+            <ImageButton Source="privacypolicy.png"
+                         x:Name="btnPrivacyPolicy"
+                         BackgroundColor="Transparent"
+                         HorizontalOptions="Start"
+                         Margin="-13,0,0,0"
+                         Scale="0.5">
+            </ImageButton>
+
+            <ImageButton Source="deleteaccount.png"
+                         x:Name="btnDeleteAccount"
+                         BackgroundColor="Transparent"
+                         HorizontalOptions="Start"
+                         Margin="-17,0,0,0"
+                         Scale="0.5">
+            </ImageButton>
+
+            <ImageButton Source="signout.png"
+                         x:Name="btnSignOut"
+                         BackgroundColor="Transparent"
+                         HorizontalOptions="Start"
+                         Margin="10,0,0,0"
+                         Scale="0.5">
+            </ImageButton>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
