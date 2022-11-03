@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("appHalcyon.pages.journal_page.xaml", "pages/journal_page.xaml", typeof(global::appHalcyon.pages.journal_page))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("appHalcyon.Pages.journal_page.xaml", "Pages/journal_page.xaml", typeof(global::appHalcyon.pages.journal_page))]
 
 namespace appHalcyon.pages {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("pages/journal_page.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Pages\\journal_page.xaml")]
     public partial class journal_page : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

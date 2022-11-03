@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appHalcyon.login_page">
+    <ContentPage.Content>
+        <StackLayout Padding="40"
+                     HorizontalOptions="FillAndExpand">
+            <Image Source="logoapp.png"
+                   x:Name="AppLogo"
+                   HeightRequest="290"
+                   WidthRequest="290">
+            </Image>
+            <Frame x:Name="entryName" Margin="10, 0, 10,0" CornerRadius="50" BackgroundColor="#D9D9D9" Padding="0">
+                   <Entry Placeholder="What is your name?"
+                   TextColor="Black"
+                   BackgroundColor="Transparent"
+                   Margin="50,2,50,2">
+                   </Entry>
+            </Frame>
+            <Frame x:Name="entryEmail" Margin="10, 15, 10,0" CornerRadius="50" BackgroundColor="#D9D9D9" Padding="0">
+                   <Entry Placeholder="Enter your email"
+                   TextColor="Black"
+                   BackgroundColor="Transparent"
+                   Margin="50,2,50,2">
+                   </Entry>
+            </Frame>
+            <Button x:Name="btnLogin"
+                    Text="Sign Up"
+                    BackgroundColor="#00A0C2"
+                    HorizontalOptions="Center"
+                    FontFamily="Sanstation_Reguler.ttf"
+                    Padding="15,5,15,5"
+                    Margin="90, 20, 90,0"
+                    CornerRadius="75"
+                    TextColor="White"
+                    Clicked="ButtonLogin">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

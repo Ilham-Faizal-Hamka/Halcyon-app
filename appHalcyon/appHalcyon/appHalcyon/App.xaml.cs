@@ -10,7 +10,8 @@ namespace appHalcyon
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //            MainPage = new MainPage();
+            MainPage = new NavigationPage(new login_page());
         }
 
         protected override void OnStart ()
