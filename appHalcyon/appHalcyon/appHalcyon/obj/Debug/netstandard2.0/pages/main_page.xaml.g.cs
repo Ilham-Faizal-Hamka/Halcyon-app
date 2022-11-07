@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("appHalcyon.pages.main_page.xaml", "pages/main_page.xaml", typeof(global::appHalcyon.pages.main_page))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("appHalcyon.Pages.main_page.xaml", "Pages/main_page.xaml", typeof(global::appHalcyon.pages.main_page))]
 
 namespace appHalcyon.pages {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("pages/main_page.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Pages\\main_page.xaml")]
     public partial class main_page : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

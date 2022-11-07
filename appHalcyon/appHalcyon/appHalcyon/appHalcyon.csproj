@@ -20,4 +20,9 @@
   <ItemGroup>
     <Folder Include="pages\" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="login_page.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>
